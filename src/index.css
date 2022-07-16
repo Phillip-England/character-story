@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300&display=swap');
 
 html, body{
   background-color: var(--black);
@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p{
   --yellow:#fcba03;
   /*FONTS*/
   --bebas:'Bebas Neue', cursive;
+  --teko:'Teko', sans-serif;
   /*FONT SIZES*/
   --f-0:0.75rem;
   --f-1:1rem;
@@ -29,4 +30,7 @@ h1, h2, h3, h4, h5, h6, p{
   /*MARGIN*/
   --m-0:5px;
   --m-1:10px;
+  /*PADDING*/
+  --p-0:5px;
+  --p-1:10px;
 }

@@ -6,13 +6,30 @@
     background-color: var(--yellow);
     height:40px;
     width:40px;
+    aspect-ratio: 1/1;
     position: fixed;
     bottom:15px;
     right:15px;
     opacity: 80%;
 }
 
-
 .icon{
     color:var(--black);
+}
+
+.animation{
+    animation-name:animation;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 80%;
+        visibility: visible;
+    }
+    100%{
+        opacity: 0%;
+        visibility: hidden;
+    }
 }
