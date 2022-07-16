@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: var(--yellow);
+    height:40px;
+    width:40px;
+    position: fixed;
+    bottom:15px;
+    right:15px;
+    opacity: 80%;
+}
+
+
+.icon{
+    color:var(--black);
+}

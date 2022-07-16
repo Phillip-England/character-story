@@ -1,0 +1,13 @@
+.headerUnderline{
+    position:relative;
+}
+
+.headerUnderline::after{
+    background-color:var(--red);
+    content: '';
+    left:0;
+    top:90%;
+    height:5px;
+    width:10%;
+    position: absolute;
+}
