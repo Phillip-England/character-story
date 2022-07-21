@@ -9,6 +9,7 @@ import './index.css';
 import Home from './routes/Home'
 import CreateCharacter from './routes/CreateCharacter';
 import PlayHome from './routes/PlayHome';
+import Inventory from './routes/Inventory';
 
 //=================
 
@@ -26,11 +27,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={
-          <Home characterData={characterData}/>
-        } />
+        <Route path='/' element={<Home/>} />
         <Route path='/character/create' element={<CreateCharacter/>} />
-        <Route path='/play/:characterID' element={<PlayHome/>} />
+        <Route path='/play/home/:characterID' element={<PlayHome/>} />
+        <Route path='/play/inventory/:characterID' element={<Inventory/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

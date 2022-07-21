@@ -79,7 +79,7 @@ export default function Home() {
             <SubText>Who will you become?</SubText>
             <List>
                 {characters.map((character) => 
-                    <Link to={`/play/${character.key}`}>
+                    <Link to={`/play/home/${character.key}`}>
                         <Item key={character.key}>
                             <Name>{character.name}</Name>
                             <PlayIcon className={'fa-solid fa-play'}></PlayIcon>
